@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1010" height="300" viewBox="0 0 1010 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#101722"/>
+    </linearGradient>
+    <linearGradient id="how" x1="312" y1="0" x2="452" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9aa8bd" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7aa2ff"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2ff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#7aa2ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="1.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0V56" fill="none" stroke="rgba(148,163,184,0.05)" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1010" height="300" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .dotA { animation: breatheA 5.5s ease-in-out infinite; }
+    @keyframes breatheA { 0%,100% { opacity: 0.14; } 50% { opacity: 0.45; } }
+    .dotB { animation: breatheB 5.5s ease-in-out infinite; }
+    @keyframes breatheB { 0%,100% { opacity: 0.30; } 50% { opacity: 0.70; } }
+    .node { animation: node 2.8s ease-in-out infinite; transform-origin: 312px 147px; }
+    @keyframes node { 0%,100% { transform: scale(1); opacity: 0.9; }
+                       50% { transform: scale(1.35); opacity: 1; } }
+    .flow { stroke-dasharray: 34 220; animation: flow 3.2s linear infinite; }
+    @keyframes flow { from { stroke-dashoffset: 254; } to { stroke-dashoffset: 0; } }
+    .vitals { animation: vitals 2.8s ease-in-out infinite; }
+    @keyframes vitals { 0%,100% { opacity: 0.85; } 50% { opacity: 0.5; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="1010" height="300" fill="url(#bg)"/>
+    <rect width="1010" height="300" fill="url(#grid)"/>
+
+    <!-- why: the problem space -->
+    <line x1="150" y1="160" x2="195" y2="136" stroke="#9aa8bd" stroke-width="0.6" opacity="0.09"/>
+    <line x1="150" y1="160" x2="191" y2="192" stroke="#9aa8bd" stroke-width="0.6" opacity="0.09"/>
+    <line x1="155" y1="171" x2="191" y2="192" stroke="#9aa8bd" stroke-width="0.6" opacity="0.09"/>
+    <line x1="66" y1="53" x2="103" y2="75" stroke="#9aa8bd" stroke-width="0.6" opacity="0.09"/>
+    <line x1="53" y1="63" x2="103" y2="75" stroke="#9aa8bd" stroke-width="0.6" opacity="0.09"/>
+    <line x1="120" y1="93" x2="72" y2="70" stroke="#9aa8bd" stroke-width="0.6" opacity="0.09"/>
+    <line x1="120" y1="93" x2="111" y2="117" stroke="#9aa8bd" stroke-width="0.6" opacity="0.09"/>
+    <line x1="52" y1="89" x2="68" y2="60" stroke="#9aa8bd" stroke-width="0.6" opacity="0.09"/>
+    <line x1="52" y1="89" x2="103" y2="75" stroke="#9aa8bd" stroke-width="0.6" opacity="0.09"/>
+    <path d="M66 53 Q 206 53, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.08"/>
+    <path d="M120 93 Q 255 93, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.13"/>
+    <path d="M220 101 Q 279 101, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.06"/>
+    <path d="M224 82 Q 290 82, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.09"/>
+    <path d="M266 46 Q 311 46, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.13"/>
+    <path d="M135 61 Q 262 61, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.10"/>
+    <path d="M176 223 Q 276 223, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.14"/>
+    <path d="M240 131 Q 286 131, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.07"/>
+    <path d="M147 217 Q 268 217, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.07"/>
+    <path d="M220 181 Q 281 181, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.13"/>
+    <path d="M215 87 Q 300 87, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.06"/>
+    <path d="M66 246 Q 218 246, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.10"/>
+    <path d="M199 103 Q 266 103, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.13"/>
+    <path d="M132 62 Q 253 62, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.07"/>
+    <path d="M249 123 Q 312 123, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.13"/>
+    <path d="M121 232 Q 235 232, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.13"/>
+    <path d="M99 223 Q 220 223, 312 147" fill="none" stroke="#9aa8bd" stroke-width="0.8" opacity="0.10"/>
+    <circle class="dotB" style="animation-delay:0.9s;animation-duration:6.9s" cx="150" cy="160" r="2.5" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:4.0s;animation-duration:3.9s" cx="155" cy="171" r="1.4" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:3.1s;animation-duration:6.1s" cx="61" cy="246" r="2.5" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:3.0s;animation-duration:4.8s" cx="66" cy="53" r="2.4" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:4.2s;animation-duration:7.5s" cx="53" cy="63" r="2.1" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:4.2s;animation-duration:5.1s" cx="120" cy="93" r="1.5" fill="#7aa2ff"/>
+    <circle class="dotB" style="animation-delay:0.4s;animation-duration:5.1s" cx="52" cy="89" r="2.5" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:0.6s;animation-duration:6.5s" cx="220" cy="101" r="1.2" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:3.8s;animation-duration:7.4s" cx="224" cy="82" r="1.9" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:4.4s;animation-duration:4.7s" cx="266" cy="46" r="2.4" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:3.1s;animation-duration:3.5s" cx="191" cy="66" r="2.6" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:1.9s;animation-duration:5.9s" cx="135" cy="61" r="1.4" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:1.2s;animation-duration:6.8s" cx="176" cy="223" r="1.4" fill="#7aa2ff"/>
+    <circle class="dotA" style="animation-delay:0.5s;animation-duration:3.7s" cx="94" cy="240" r="2.4" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:2.6s;animation-duration:5.5s" cx="107" cy="197" r="1.7" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:1.4s;animation-duration:6.0s" cx="263" cy="72" r="1.8" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:1.4s;animation-duration:3.7s" cx="96" cy="49" r="1.5" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:3.5s;animation-duration:6.1s" cx="262" cy="65" r="1.3" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:0.2s;animation-duration:4.7s" cx="82" cy="53" r="1.1" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:2.7s;animation-duration:3.8s" cx="68" cy="60" r="1.6" fill="#7aa2ff"/>
+    <circle class="dotA" style="animation-delay:3.4s;animation-duration:4.9s" cx="246" cy="196" r="2.2" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:3.3s;animation-duration:3.6s" cx="240" cy="131" r="2.3" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:3.7s;animation-duration:5.1s" cx="72" cy="70" r="1.5" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:0.4s;animation-duration:4.7s" cx="147" cy="217" r="1.2" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:3.4s;animation-duration:4.7s" cx="220" cy="181" r="1.8" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:3.2s;animation-duration:4.5s" cx="195" cy="136" r="2.4" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:0.7s;animation-duration:4.3s" cx="215" cy="87" r="1.4" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:1.1s;animation-duration:4.6s" cx="66" cy="246" r="2.3" fill="#7aa2ff" filter="url(#soft)"/>
+    <circle class="dotA" style="animation-delay:1.4s;animation-duration:6.8s" cx="120" cy="217" r="2.6" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:0.7s;animation-duration:3.6s" cx="199" cy="103" r="1.6" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:2.7s;animation-duration:3.9s" cx="103" cy="75" r="1.2" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:0.1s;animation-duration:4.2s" cx="132" cy="62" r="1.4" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:0.8s;animation-duration:7.5s" cx="111" cy="117" r="2.1" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:2.3s;animation-duration:4.0s" cx="203" cy="92" r="1.7" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:3.3s;animation-duration:5.4s" cx="249" cy="123" r="2.0" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:2.7s;animation-duration:7.4s" cx="191" cy="192" r="1.4" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:1.7s;animation-duration:3.6s" cx="121" cy="232" r="2.4" fill="#9aa8bd"/>
+    <circle class="dotB" style="animation-delay:3.9s;animation-duration:4.8s" cx="99" cy="223" r="1.7" fill="#7aa2ff"/>
+    <circle class="dotA" style="animation-delay:3.4s;animation-duration:5.8s" cx="208" cy="217" r="2.1" fill="#9aa8bd"/>
+    <circle class="dotA" style="animation-delay:4.2s;animation-duration:5.6s" cx="147" cy="160" r="2.3" fill="#9aa8bd"/>
+
+    <!-- the insight node -->
+    <circle cx="312" cy="147" r="7" fill="#7aa2ff" opacity="0.14"/>
+    <circle class="node" cx="312" cy="147" r="3.2" fill="#7aa2ff" filter="url(#soft)"/>
+
+    <!-- how: one line, executed -->
+    <line x1="316" y1="147" x2="450" y2="147" stroke="url(#how)" stroke-width="2"/>
+    <line class="flow" x1="316" y1="147" x2="450" y2="147"
+          stroke="#7aa2ff" stroke-width="2.2" stroke-linecap="round" filter="url(#soft)"/>
+
+    <!-- caption -->
+    <text class="vitals" x="160" y="270" text-anchor="middle" font-family="'SFMono-Regular', Menlo, Consolas, monospace"
+          font-size="12" fill="#7aa2ff">why &#8594; how</text>
+
+    <!-- identity -->
+    <text x="452" y="96" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="600"
+          letter-spacing="0.3" fill="#e6edf3">Saber Jelodari</text>
+    <text x="452" y="127" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" letter-spacing="0.2"
+          fill="#94a0b0">AI Specialist · Technical Product Management</text>
+    <rect x="452" y="146" width="330" height="2" rx="1" fill="url(#rule)"/>
+
+    <line x1="453" y1="172" x2="453" y2="186" stroke="#7aa2ff" stroke-width="2" opacity="0.7"/><text x="468" y="184" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#bac4d2">DeutschPath v1.0 — self-directed product, zero to launch, solo</text>
+    <line x1="453" y1="199" x2="453" y2="213" stroke="#7aa2ff" stroke-width="2" opacity="0.7"/><text x="468" y="211" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#bac4d2">PhysioNet Challenge 2025 — Top 10 of 41 teams worldwide</text>
+    <line x1="453" y1="226" x2="453" y2="240" stroke="#7aa2ff" stroke-width="2" opacity="0.7"/><text x="468" y="238" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#bac4d2">Product Owner — FAU AMOS Project, 11-person Agile team</text>
+
+    <text x="452" y="272" font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" fill="#5d6875">University of Bayreuth · Bayreuth, Germany · saberjelodari.com</text>
+    <text x="984" y="272" text-anchor="end" font-family="'SFMono-Regular', Menlo, Consolas, monospace" font-size="11"
+          fill="#5d6875">updated 2026-07-11</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1009" height="299" rx="14" fill="none" stroke="rgba(148,163,184,0.15)"/>
+</svg>
