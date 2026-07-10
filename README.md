@@ -8,7 +8,7 @@
 <div align="center">
 <br>
 
-**Now** — building things at the edge of what AI can do and what people actually need, and teaching *Time Series in Machine Learning* to Master's students (nominated for the Goldene Kreide teaching prize, SS26).
+**Now** — building things at the edge of what AI can do and what people actually need.
 
 <br>
 
