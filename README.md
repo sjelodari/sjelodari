@@ -16,13 +16,12 @@
 
 <br>
 
-| Selected work | |
-|:--|:--|
-| [**DeutschPath**](https://github.com/sjelodari/DeutschPath) | AI-powered language-learning platform — book reader, spaced-repetition vocab, grammar roadmap. **v1.0 shipped, solo, zero to launch** · Next.js · Gemini Vision |
-| [**PhysioNet 2025**](https://github.com/sjelodari/Chagas_UBT_Physionet_Challenge) | 15 MB CNN–BiLSTM–Attention model for signal classification in a global research competition. **Top 10 of 41 teams worldwide** · PyTorch |
-| **FAU AMOS Project** | Agile Methods & Open Source project at FAU Erlangen-Nürnberg. **Product Owner, 11-person Agile team** · Scrum |
-| [**Clinical Trials NLP**](https://github.com/sjelodari/ClinicalTrialIPDClassifier) | Domain-specific BERT models classifying records at scale. **Master's thesis, grade 1.0 · presented at MIE 2024, Athens** |
-| [**ECG-Simulator**](https://github.com/sjelodari/ECG-Simulator) | Interactive browser tool teaching signal processing in real time. **Used in university teaching** |
+<sub><code>selected work</code></sub>
+
+<a href="https://github.com/sjelodari/DeutschPath"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/deutschpath-dark.svg"><source media="(prefers-color-scheme: light)" srcset="cards/deutschpath-light.svg"><img src="cards/deutschpath-dark.svg" width="49%" alt="01 product — DeutschPath: AI-powered language-learning platform with book reader, spaced-repetition vocab and grammar roadmap. v1.0 shipped solo, zero to launch. Next.js, Gemini Vision."></picture></a> <picture><source media="(prefers-color-scheme: dark)" srcset="cards/amos-dark.svg"><source media="(prefers-color-scheme: light)" srcset="cards/amos-light.svg"><img src="cards/amos-dark.svg" width="49%" alt="02 leadership — FAU AMOS Project (Agile Methods and Open Source), FAU Erlangen-Nürnberg. Product Owner of an 11-person Agile team."></picture>
+<a href="https://github.com/sjelodari/Chagas_UBT_Physionet_Challenge"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/physionet-dark.svg"><source media="(prefers-color-scheme: light)" srcset="cards/physionet-light.svg"><img src="cards/physionet-dark.svg" width="49%" alt="03 research — PhysioNet Challenge 2025: 15 MB CNN–BiLSTM–Attention model for signal classification. Top 10 of 41 teams worldwide. PyTorch."></picture></a> <a href="https://github.com/sjelodari/ClinicalTrialIPDClassifier"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/thesis-dark.svg"><source media="(prefers-color-scheme: light)" srcset="cards/thesis-light.svg"><img src="cards/thesis-dark.svg" width="49%" alt="04 thesis — Clinical Trials NLP: domain-specific BERT models classifying trial records at scale. Master's thesis, grade 1.0 (best possible on the German scale), presented at MIE 2024 in Athens."></picture></a>
+
+<sub>Also — <a href="https://github.com/sjelodari/ECG-Simulator"><b>ECG-Simulator</b></a>, an interactive browser tool for teaching signal processing in real time, used in university teaching.</sub>
 
 <br>
 
